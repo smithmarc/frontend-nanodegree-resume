@@ -6,8 +6,6 @@ Don't worry, you'll learn what's going on in this file throughout the course. Yo
 
 Cameron Pittman
 */
-
-
 /*
 These are HTML strings. As part of the course, you'll be using JavaScript functions
 replace the %data% placeholder text you see in them.
@@ -15,19 +13,28 @@ replace the %data% placeholder text you see in them.
 var HTMLheaderName = '<h1 id="name">%data%</h1>';
 var HTMLheaderRole = '<span>%data%</span><hr/>';
 
-var HTMLcontactGeneric = '<li class="flex-item"><span class="blue-text">%contact%</span><span class="white-text">%data%</span></li>';
-var HTMLmobile = '<li class="flex-item"><span class="blue-text">mobile</span><span class="white-text">%data%</span></li>';
-var HTMLemail = '<li class="flex-item"><span class="blue-text">email</span><span class="white-text">%data%</span></li>';
-var HTMLtwitter = '<li class="flex-item"><span class="blue-text">twitter</span><span class="white-text">%data%</span></li>';
-var HTMLgithub = '<li class="flex-item"><span class="blue-text">github</span><span class="white-text">%data%</span></li>';
-var HTMLblog = '<li class="flex-item"><span class="blue-text">blog</span><span class="white-text">%data%</span></li>';
-var HTMLlocation = '<li class="flex-item"><span class="blue-text">location</span><span class="white-text">%data%</span></li>';
+var HTMLcontactGeneric =
+  '<li class="flex-item"><span class="blue-text">%contact%</span><span class="white-text">%data%</span></li>';
+var HTMLmobile =
+  '<li class="flex-item"><span class="blue-text">mobile</span><span class="white-text">%data%</span></li>';
+var HTMLemail =
+  '<li class="flex-item"><span class="blue-text">email</span><span class="white-text">%data%</span></li>';
+var HTMLtwitter =
+  '<li class="flex-item"><span class="blue-text">twitter</span><span class="white-text">%data%</span></li>';
+var HTMLgithub =
+  '<li class="flex-item"><span class="blue-text">github</span><span class="white-text">%data%</span></li>';
+var HTMLblog =
+  '<li class="flex-item"><span class="blue-text">blog</span><span class="white-text">%data%</span></li>';
+var HTMLlocation =
+  '<li class="flex-item"><span class="blue-text">location</span><span class="white-text">%data%</span></li>';
 
 var HTMLbioPic = '<img src="%data%" class="biopic">';
 var HTMLwelcomeMsg = '<span class="welcome-message">%data%</span>';
 
-var HTMLskillsStart = '<h3 id="skills-h3">Skills at a Glance:</h3><ul id="skills" class="flex-box"></ul>';
-var HTMLskills = '<li class="flex-item"><span class="white-text">%data%</span></li>';
+var HTMLskillsStart =
+  '<h3 id="skills-h3">Skills at a Glance:</h3><ul id="skills" class="flex-box"></ul>';
+var HTMLskills =
+  '<li class="flex-item"><span class="white-text">%data%</span></li>';
 
 var HTMLworkStart = '<div class="work-entry"></div>';
 var HTMLworkEmployer = '<a href="#">%data%';
@@ -64,7 +71,7 @@ The International Name challenge in Lesson 2 where you'll create a function that
 */
 $(document).ready(function() {
   $('button').click(function() {
-    var iName = inName() || function(){};
+    var iName = inName() || function() {};
     $('#name').html(iName);
   });
 });
@@ -74,13 +81,11 @@ The next few lines about clicks are for the Collecting Click Locations quiz in L
 */
 clickLocations = [];
 
-function logClicks(x,y) {
-  clickLocations.push(
-    {
-      x: x,
-      y: y
-    }
-  );
+function logClicks(x, y) {
+  clickLocations.push({
+    x: x,
+    y: y
+  });
   console.log('x location: ' + x + '; y location: ' + y);
 }
 
@@ -88,7 +93,7 @@ $(document).click(function(loc) {
   var x = loc.pageX;
   var y = loc.pageY;
 
-  logClicks(x,y);
+  logClicks(x, y);
 });
 
 
@@ -98,7 +103,7 @@ This is the fun part. Here's where we generate the custom Google Map for the web
 See the documentation below for more details.
 https://developers.google.com/maps/documentation/javascript/reference
 */
-var map;    // declares a global map variable
+var map; // declares a global map variable
 
 
 /*
@@ -154,10 +159,10 @@ function initializeMap() {
   function createMapMarker(placeData) {
 
     // The next lines save location data from the search result object to local variables
-    var lat = placeData.geometry.location.lat();  // latitude from the place service
-    var lon = placeData.geometry.location.lng();  // longitude from the place service
-    var name = placeData.formatted_address;   // name of the place from the place service
-    var bounds = window.mapBounds;            // current boundaries of the map window
+    var lat = placeData.geometry.location.lat(); // latitude from the place service
+    var lon = placeData.geometry.location.lng(); // longitude from the place service
+    var name = placeData.formatted_address; // name of the place from the place service
+    var bounds = window.mapBounds; // current boundaries of the map window
 
     // marker is an object with additional data about the pin for a single location
     var marker = new google.maps.Marker({
