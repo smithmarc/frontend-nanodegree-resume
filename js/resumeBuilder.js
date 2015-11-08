@@ -1,93 +1,93 @@
 /* --- Bio Information --- */
 var bio = {
-  "name": "Marc Smith",
-  "role": "Web Developer",
-  "contacts": {
-    "mobile": "0466 642 422",
-    "email": "smivers624@gmail.com",
-    "github": "smithmarc",
-    "twitter": "@smivers624",
-    "location": "Perth, WA"
+  'name': 'Marc Smith',
+  'role': 'Web Developer',
+  'contacts': {
+    'mobile': '0466 642 422',
+    'email': 'smivers624@gmail.com',
+    'github': 'smithmarc',
+    'twitter': '@smivers624',
+    'location': 'Perth, WA'
   },
-  "welcomeMessage": "lorem ipsum dolor sit amet etc etc etc.",
-  "skills": ["Restocking shelves", "Operating pallet jacks",
-    "Programming",
-    "HTML"
+  'welcomeMessage': 'lorem ipsum dolor sit amet etc etc etc.',
+  'skills': ['Restocking shelves', 'Operating pallet jacks',
+    'Programming',
+    'HTML'
   ],
-  "bioPic": "images/fry.jpg"
+  'bioPic': 'images/fry.jpg'
 };
 
 /* --- Work Information --- */
 
 var work = {
-  "jobs": [{
-    "title": "Nightfill",
-    "employer": "Woolworths",
-    "dates": "2009 - Present",
-    "location": "Currambine, WA",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit," +
-      " sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." +
-      " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris" +
-      "nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in " +
-      "reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla " +
-      "pariatur. Excepteur sint occaecat cupidatat non proident, sunt in " +
-      "culpa qui officia deserunt mollit anim id est laborum."
+  'jobs': [{
+    'title': 'Nightfill',
+    'employer': 'Woolworths',
+    'dates': '2009 - Present',
+    'location': 'Currambine, WA',
+    'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,' +
+      ' sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.' +
+      ' Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris' +
+      'nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in ' +
+      'reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla ' +
+      'pariatur. Excepteur sint occaecat cupidatat non proident, sunt in ' +
+      'culpa qui officia deserunt mollit anim id est laborum.'
   }, {
-    "title": "Pizza Delivery Boy",
-    "employer": "Papa Johns",
-    "dates": "2007 - 2009",
-    "location": "Joondalup, WA",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit," +
-      " sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." +
-      " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris" +
-      "nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in " +
-      "reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla " +
-      "pariatur. Excepteur sint occaecat cupidatat non proident, sunt in " +
-      "culpa qui officia deserunt mollit anim id est laborum."
+    'title': 'Pizza Delivery Boy',
+    'employer': 'Papa Johns',
+    'dates': '2007 - 2009',
+    'location': 'Joondalup, WA',
+    'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,' +
+      ' sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.' +
+      ' Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris' +
+      'nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in ' +
+      'reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla ' +
+      'pariatur. Excepteur sint occaecat cupidatat non proident, sunt in ' +
+      'culpa qui officia deserunt mollit anim id est laborum.'
   }]
 };
 
 /* --- Project Information --- */
 
 var projects = {
-  "projects": [{
-    "title": "Two Halfs Football Development",
-    "dates": 2015,
-    "description": "Website development for a friend.",
-    "images": ["images/2hfd.png", "images/197x148.gif"]
+  'projects': [{
+    'title': 'Two Halfs Football Development',
+    'dates': 2015,
+    'description': 'Website development for a friend.',
+    'images': ['images/2hfd.png', 'images/197x148.gif']
   }, {
-    "title": "Sample Project 2",
-    "dates": 2013,
-    "description": "Cauliflower cheese, cheesy rice with tomato sauce." +
-      " Peri-peri chicken sauted with garlic and onions, dipped in cheese " +
-      "topped with the finest lettuce, traffic light capsicum and broccoli.",
-    "images": ["images/sample.jpg", "images/197x148.gif"]
+    'title': 'Sample Project 2',
+    'dates': 2013,
+    'description': 'Cauliflower cheese, cheesy rice with tomato sauce.' +
+      ' Peri-peri chicken sauted with garlic and onions, dipped in cheese ' +
+      'topped with the finest lettuce, traffic light capsicum and broccoli.',
+    'images': ['images/sample.jpg', 'images/197x148.gif']
   }]
 };
 
 /* --- Education Information --- */
 
 var education = {
-  "schools": [{
-    "name": "Edith Cowan University",
-    "degree": "BA",
-    "dates": 2013,
-    "location": "Joondalup, WA",
-    "majors": ["CS"],
-    "url": "http://www.ecu.edu.au/degrees/courses/bachelor-of-computer-science"
+  'schools': [{
+    'name': 'Edith Cowan University',
+    'degree': 'BA',
+    'dates': 2013,
+    'location': 'Joondalup, WA',
+    'majors': ['CS'],
+    'url': 'http://www.ecu.edu.au/degrees/courses/bachelor-of-computer-science'
   }],
-  "onlineCourses": [{
-    "title": "Front-End Web Developer Nanodegree",
-    "school": "Udacity",
-    "dates": 2016,
-    "url": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001"
+  'onlineCourses': [{
+    'title': 'Front-End Web Developer Nanodegree',
+    'school': 'Udacity',
+    'dates': 2016,
+    'url': 'https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001'
   }]
 };
 
 /* --- Header --- */
 
 bio.display = function() {
-  var data = "%data%";
+  var data = '%data%';
   var formattedName = HTMLheaderName.replace(data, bio.name);
   var formattedRole = HTMLheaderRole.replace(data, bio.role);
 
@@ -99,9 +99,9 @@ bio.display = function() {
   var formattedBioPic = HTMLbioPic.replace(data, bio.bioPic);
   var formattedWelcomeMsg = HTMLwelcomeMsg.replace(data, bio.welcomeMessage);
 
-  var $header = $("#header");
-  var $topContacts = $("#topContacts");
-  var $footerContacts = $("#footerContacts");
+  var $header = $('#header');
+  var $topContacts = $('#topContacts');
+  var $footerContacts = $('#footerContacts');
 
   $header.prepend(formattedName, formattedRole);
   $topContacts.prepend(formattedMobile, formattedEmail,
@@ -128,9 +128,9 @@ bio.display = function() {
 
 work.display = function() {
 
-  var data = "%data%";
-  var $workExperience = $("#workExperience");
-  //var $workEntry = $(".work-entry:last");
+  var data = '%data%';
+  var $workExperience = $('#workExperience');
+  //var $workEntry = $('.work-entry:last');
 
   var arrayLength = work.jobs.length;
 
@@ -150,10 +150,10 @@ work.display = function() {
     var formattedDescription = HTMLworkDescription.replace(
       data, work.jobs[i].description);
 
-    $(".work-entry:last").append(formattedEmployerTitle);
-    $(".work-entry:last").append(formattedDates);
-    $(".work-entry:last").append(formattedLocation);
-    $(".work-entry:last").append(formattedDescription);
+    $('.work-entry:last').append(formattedEmployerTitle);
+    $('.work-entry:last').append(formattedDates);
+    $('.work-entry:last').append(formattedLocation);
+    $('.work-entry:last').append(formattedDescription);
   };
 
 };
@@ -162,9 +162,9 @@ work.display = function() {
 
 projects.display = function() {
 
-  var data = "%data%";
-  var $projects = $("#projects");
-  //var $projectEntry = $(".project-entry:last");
+  var data = '%data%';
+  var $projects = $('#projects');
+  //var $projectEntry = $('.project-entry:last');
 
   var arrayLength = projects.projects.length;
 
@@ -178,9 +178,9 @@ projects.display = function() {
     var formattedDescription = HTMLprojectDescription.replace(
       data, projects.projects[i].description);
 
-    $(".project-entry:last").append(formattedTitle);
-    $(".project-entry:last").append(formattedDates);
-    $(".project-entry:last").append(formattedDescription);
+    $('.project-entry:last').append(formattedTitle);
+    $('.project-entry:last').append(formattedDates);
+    $('.project-entry:last').append(formattedDescription);
 
     var innerArrayLength = projects.projects[i].images.length;
 
@@ -188,7 +188,7 @@ projects.display = function() {
       for (var j = 0; j < innerArrayLength; j++) {
         var formattedImage =
           HTMLprojectImage.replace(data, projects.projects[i].images[j]);
-        $(".project-entry:last").append(formattedImage);
+        $('.project-entry:last').append(formattedImage);
       };
     };
   };
@@ -196,9 +196,9 @@ projects.display = function() {
 
 education.display = function() {
 
-  var data = "%data%";
-  var $education = $("#education");
-  //var $educationEntry = $(".education-entry:last");
+  var data = '%data%';
+  var $education = $('#education');
+  //var $educationEntry = $('.education-entry:last');
 
   var arrayLength = education.schools.length;
 
@@ -215,9 +215,9 @@ education.display = function() {
     var formattedLocation = HTMLschoolLocation.replace(
       data, education.schools[i].location);
 
-    $(".education-entry:last").append(formattedNameDegree);
-    $(".education-entry:last").append(formattedDates);
-    $(".education-entry:last").append(formattedLocation);
+    $('.education-entry:last').append(formattedNameDegree);
+    $('.education-entry:last').append(formattedDates);
+    $('.education-entry:last').append(formattedLocation);
 
     var innerArrayLength = education.schools[i].majors.length;
 
@@ -225,7 +225,7 @@ education.display = function() {
       for (var j = 0; j < innerArrayLength; j++) {
         var formattedMajor =
           HTMLschoolMajor.replace(data, education.schools[i].majors[j]);
-        $(".education-entry:last").append(formattedMajor);
+        $('.education-entry:last').append(formattedMajor);
       };
     };
   };
@@ -248,9 +248,9 @@ education.display = function() {
     var formattedURL = HTMLonlineURL.replace(data,
       education.onlineCourses[k].url);
 
-    $(".education-entry:last").append(formattedTitleSchool);
-    $(".education-entry:last").append(formattedDates);
-    $(".education-entry:last").append(formattedURL);
+    $('.education-entry:last').append(formattedTitleSchool);
+    $('.education-entry:last').append(formattedDates);
+    $('.education-entry:last').append(formattedURL);
 
   };
 };
@@ -274,5 +274,5 @@ function locationiser(work_obj) {
 
 console.log(locationiser(work));
 
-var $mapDiv = $("#mapDiv");
+var $mapDiv = $('#mapDiv');
 $mapDiv.append(googleMap);
